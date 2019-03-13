@@ -1,0 +1,42 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Server hacker-typist",
+        "command": "hacker-typist:server"
+      },
+            {
+        "label": "Paste hacker-typist",
+        "command": "hacker-typist:paste"
+      },
+      {
+        "label": "Disable hacker-typist",
+        "command": "hacker-typist:end"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "hacker-typist",
+          "submenu": [
+            {
+              "label": "Server",
+              "command": "hacker-typist:server"
+            },
+            {
+              "label": "Paste",
+              "command": "hacker-typist:paste"
+            },
+            {
+              "label": "Disable",
+              "command": "hacker-typist:end"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
