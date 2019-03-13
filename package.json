@@ -5,7 +5,7 @@
   "description": "Fork of Hackertype for Atom",
   "keywords": [],
   "bin": "./bin/ht-set-code.js",
-  "repository": "https://github.com/jashmenn/hacker-typist",
+  "repository": "https://github.com/quantik-git/hacker-typist",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
